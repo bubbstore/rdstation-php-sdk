@@ -30,7 +30,6 @@ class RD
         LeadInterface $lead = null,
         ClientInterface $http = null
     ) {
-
         if (!is_string($token)) {
             throw new RDException('O token precisa ser uma string');
         }
