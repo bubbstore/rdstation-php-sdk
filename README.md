@@ -30,7 +30,7 @@ try {
         'campo_customizado_2' => 'valor customizado'
     ]);
 
-    echo '<pre>' . var_dump($lead->find()) . '</pre>';
+    echo '<pre>' . var_dump($lead) . '</pre>';
 
 } catch (RDException $e) {
     echo $e->getMessage();
