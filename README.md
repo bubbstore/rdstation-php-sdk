@@ -2,7 +2,7 @@
 
 Biblioteca que realiza integração com a API do [RDStation](http://www.rdstation.com)
 
-[![StyleCI](https://styleci.io/repos/118616249/shield?branch=master)](https://styleci.io/repos/118616249)
+[![StyleCI](https://styleci.io/repos/127529310/shield?branch=master)](https://styleci.io/repos/127529310)
 
 ## Instalação via composer
 
