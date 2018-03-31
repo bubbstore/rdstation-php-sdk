@@ -109,7 +109,6 @@ class Lead implements LeadInterface
      */
     protected function setParams($value)
     {
-
         if (!isset($value['email'])) {
             throw new RDException('O e-mail do lead é obrigatório.');
         }
