@@ -54,6 +54,12 @@ Resultado esperado:
 ]
 ```
 
+## Testando
+
+```bash
+$ composer test
+```
+
 ## Change log
 
 Consulte [CHANGELOG](.github/CHANGELOG.md) para obter mais informações sobre o que mudou recentemente.
