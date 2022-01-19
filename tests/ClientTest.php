@@ -3,8 +3,6 @@
 namespace bubbstore\RDStation;
 
 use Mockery;
-use GuzzleHttp\ClientInterface;
-use bubbstore\RDStation\Services\Lead;
 use bubbstore\RDStation\Contracts\LeadInterface;
 
 class ClientTest extends TestCase
@@ -14,7 +12,7 @@ class ClientTest extends TestCase
      */
     protected $rd;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
