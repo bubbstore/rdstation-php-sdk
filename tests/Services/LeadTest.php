@@ -14,7 +14,7 @@ class LeadTest extends TestCase
      */
     protected $rd;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 

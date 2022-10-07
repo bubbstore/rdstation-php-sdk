@@ -6,12 +6,12 @@ use Mockery;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
-use PHPUnit_Framework_TestCase;
 use GuzzleHttp\Handler\MockHandler;
+use PHPUnit\Framework\TestCase as FrameworkTestCase;
 
-abstract class TestCase extends PHPUnit_Framework_TestCase
+abstract class TestCase extends FrameworkTestCase
 {
-    public function tearDown()
+    public function tearDown(): void
     {
         Mockery::close();
     }
